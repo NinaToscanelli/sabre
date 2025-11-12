@@ -1,0 +1,37 @@
+footer {
+  height: 300%;
+  width: 100vw;
+  flex-shrink: 0;
+}
+
+footer p {
+  width: 734px;
+  height: 368px;
+  color: #000;
+  font-family: "Nova Flat";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+footer img {
+  width: 100%;
+  background-image: url(/dist/img/neige.28a296c7.png);
+  background-repeat: no-repeat;
+}
+
+footer .réseaux {
+  display: inline-flex;
+  align-items: center;
+  gap: 73px;
+  margin-left: 60%;
+  margin-bottom: 86px;
+}
+
+footer .maison {
+  width: 368px;
+  height: 214px;
+  flex-shrink: 0;
+  aspect-ratio: 184/107;
+  margin-left: 10%;
+}

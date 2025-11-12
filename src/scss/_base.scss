@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.scroller-stroll {
+  height: 100vh;
+  overflow: hidden;
+  transform-origin: center center;
+}
+
+.screens-stroll {
+  display: inline-flex;
+  height: 100%;
+}
+
+.savane {
+  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: #d6939a 5px solid;
+  position: relative;
+}
+
+.walking-sabre {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  bottom: 60px;
+  background-color: #d9ae93;
+}
+
+.jumping-sabre {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  bottom: -300px;
+  background-color: #d9ae93;
+}

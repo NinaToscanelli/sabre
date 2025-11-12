@@ -1,0 +1,19 @@
+.tigers {
+  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: #d6939a 5px solid;
+  position: relative;
+}
+
+.tigers {
+  background-color: #d6939a;
+}
+
+.tigers-image {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  background-color: #6d4f4c;
+}
