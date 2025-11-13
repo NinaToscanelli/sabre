@@ -20,6 +20,12 @@ footer img {
   background-repeat: no-repeat;
 }
 
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer .réseaux {
   display: inline-flex;
   align-items: center;
@@ -28,10 +34,11 @@ footer .réseaux {
   margin-bottom: 86px;
 }
 
-footer .maison {
-  width: 368px;
-  height: 214px;
-  flex-shrink: 0;
-  aspect-ratio: 184/107;
-  margin-left: 10%;
+footer .maison p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 5.12px;
 }

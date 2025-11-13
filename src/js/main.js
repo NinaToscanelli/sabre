@@ -62,8 +62,8 @@ tl.to(".screens-stroll", {
 tl.to(
   ".buffalo",
   {
-    scale: 0.85,
-    duration: 2,
+    scale: 0.8,
+    duration: 3,
   },
   "-=4"
 );

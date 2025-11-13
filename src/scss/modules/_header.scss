@@ -21,3 +21,24 @@ header .call-to-action {
   border: 6px solid #e8da61;
   background: #fff;
 }
+
+header h2 {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+}
+
+header h1 {
+  font-family: "Nova Square";
+}
+
+header img {
+  margin-top: -300px;
+  width: 100%;
+  background-image: url(/dist/img/homepage.b8a93535.png);
+  background-repeat: no-repeat;
+}
