@@ -1,9 +1,29 @@
 .corpse {
-  height: 300vw;
+  height: 300vh;
+  position: relative;
   width: 100vw;
   flex-shrink: 0;
 }
 
 .corpse img {
+  height: auto;
+  width: 100%;
+}
+.corpse .autumn {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 100%;
+}
+.corpse .winter {
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
   width: 100%;
 }

@@ -1,0 +1,16 @@
+.savane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
+  position: relative;
+}
+.savane div {
+  width: 100%;
+}
+.savane img {
+  height: auto;
+  width: 100%;
+}

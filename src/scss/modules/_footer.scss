@@ -16,7 +16,7 @@ footer p {
 
 footer img {
   width: 100%;
-  background-image: url(/dist/img/neige.28a296c7.png);
+  background-image: url(/src/img/neige.png);
   background-repeat: no-repeat;
 }
 
@@ -28,17 +28,19 @@ footer .bottom {
 
 footer .réseaux {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   gap: 73px;
-  margin-left: 60%;
-  margin-bottom: 86px;
+  width: 50%;
 }
 
-footer .maison p {
+footer .maison {
   color: #000;
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 125%;
   letter-spacing: 5.12px;
+  text-align: center;
+  width: 50%;
 }

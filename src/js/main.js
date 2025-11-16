@@ -14,11 +14,96 @@ var tl = gsap.timeline({
   },
 });
 
+tl.to(
+  ".screens-stroll",
+  {
+    x: "-20%",
+    duration: 4,
+  },
+  "savane"
+);
+
+tl.fromTo(
+  ".savane",
+  { scale: 1 },
+  {
+    scale: 0.6,
+    duration: 3,
+  },
+  "savane"
+);
+
+tl.fromTo(
+  ".savane",
+  { scale: 0.6 },
+  {
+    scale: 1,
+    duration: 2,
+  },
+  "savane+=3"
+);
+
+tl.to(
+  ".screens-stroll",
+  {
+    x: "-40%",
+    duration: 4,
+  },
+  "-=2",
+  "tigres"
+);
+
+tl.fromTo(
+  ".tigers-image",
+  {},
+  {
+    y: "100%",
+    duration: 3,
+  },
+  "tigres"
+);
+
+tl.fromTo(
+  ".jumping-sabre",
+  {},
+  {
+    y: "-=600px",
+    x: "+=300px",
+    duration: 2,
+  },
+  "tigres+=2"
+);
+
 tl.to(".screens-stroll", {
-  x: "-20%",
+  x: "-60%",
   duration: 4,
 });
+tl.to(".screens-stroll", {
+  x: "-80%",
+  duration: 4,
+});
+tl.to(
+  ".screens-stroll",
+  {
+    y: "-200%",
+    duration: 8,
+  },
+  "corpse-down"
+);
+tl.fromTo(".autumn", { opacity: 0 }, { opacity: 1, duration: 3 }, "autumn");
 
+tl.fromTo(
+  ".autumn",
+  { scale: 1.5 },
+  {
+    scale: 1,
+    duration: 0.5,
+  },
+  "autumn"
+);
+
+tl.fromTo(".winter", { opacity: 0 }, { opacity: 1, duration: 3 });
+/*
 tl.to(
   ".screens-stroll",
   {
@@ -32,28 +117,19 @@ tl.to(".screens-stroll", {
   scale: 1,
   duration: 3,
 });
+*/
 
+/*
 tl.to(".screens-stroll", {
-  x: "-40%",
+  x: "-25%",
   duration: 4,
 });
+*/
 
-tl.to(".walking-sabre", {
-  x: "+=500px",
-  duration: 2,
-});
+/*
+ */
 
-tl.to(".tigers-image", {
-  y: "100%",
-  duration: 3,
-});
-
-tl.to(".jumping-sabre", {
-  y: "-=600px",
-  x: "+=300px",
-  duration: 2,
-});
-
+/*
 tl.to(".screens-stroll", {
   x: "-80%",
   duration: 4,
@@ -67,3 +143,4 @@ tl.to(
   },
   "-=4"
 );
+*/
