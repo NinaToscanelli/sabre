@@ -1,13 +1,13 @@
 .tigers {
-  height: 100%;
-  width: 100vw;
+  height: 100vh;
+  width: 100vh;
   flex-shrink: 0;
-  position: relative;
 }
 
 .tigers .sky {
-  width: 100%;
-  height: 80vh;
+  position: relative;
+  width: 80vh;
+  height: 100vh;
   background-image: url(/src/img/ciel.png);
 }
 
@@ -15,16 +15,16 @@
   width: 100%;
   height: 80vh;
   position: absolute;
-  bottom: 20;
+  bottom: 8;
   background-image: url(/src/img/tigre.png);
   background-repeat: no-repeat;
 }
 
 .tigres .jumping-sabre {
-  width: 50%;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  left: -19px;
+  left: -18px;
   bottom: -880px;
   background-image: url(/src/img/saut.png);
 }

@@ -67,8 +67,8 @@ tl.fromTo(
   ".jumping-sabre",
   {},
   {
-    y: "-=600px",
-    x: "+=300px",
+    y: "-=700px",
+    x: "+=200px",
     duration: 2,
   },
   "tigres+=2"
@@ -82,6 +82,16 @@ tl.to(
   },
   "buffalo"
 );
+
+tl.to(".buffalo .nip", {
+  opacity: 0,
+  duration: 0,
+});
+
+tl.to(".buffalo .uproot", {
+  opacity: 1,
+  duration: 0,
+});
 
 tl.fromTo(
   ".buffalo",
@@ -99,8 +109,7 @@ tl.fromTo(
   {
     scale: 1,
     duration: 2,
-  },
-  "buffalo+=3"
+  }
 );
 
 tl.to(".screens-stroll", {
@@ -111,7 +120,7 @@ tl.to(".screens-stroll", {
 tl.to(
   ".screens-stroll",
   {
-    y: "-200%",
+    y: "-140%",
     duration: 8,
   },
   "corpse-down"
@@ -123,7 +132,7 @@ tl.fromTo(
   { scale: 1.5 },
   {
     scale: 1,
-    duration: 0.5,
+    duration: 3,
   },
   "autumn"
 );
