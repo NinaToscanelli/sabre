@@ -2,19 +2,36 @@ header {
   height: 100vh;
 }
 
-header .call-to-action {
+header img {
+  width: 100%;
+  background-image: url(/src/img/homepage.png);
+  background-repeat: no-repeat;
+}
+
+header .homepage-container {
+  position: relative;
+
+  .call-to-action {
+    position: absolute;
+    top: 75%;
+    left: 68%;
+  }
+
+  .flèche {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+  }
+}
+
+header button.call-to-action {
   width: 210px;
   height: 45px;
   color: #000;
-  font-family: "Nova Square";
+  font-family: "Nova Flat";
   font-size: 32px;
   font-weight: 400;
   line-height: 125%;
-  padding-top: 28px;
-  padding-left: 69px;
-}
-
-header .call-to-action {
   width: 348px;
   height: 101px;
   border-radius: 44px;
@@ -22,23 +39,12 @@ header .call-to-action {
   background: #fff;
 }
 
-header h2 {
-  color: #000;
-  leading-trim: both;
-  text-edge: cap;
-  font-family: Montserrat;
-  font-size: 40px;
-  font-weight: 300;
-  letter-spacing: 1.6px;
-}
+.header-container {
+  position: relative;
 
-header h1 {
-  font-family: "Nova Square";
-}
-
-header img {
-  margin-top: -300px;
-  width: 100%;
-  background-image: url(/src/img/homepage.png);
-  background-repeat: no-repeat;
+  p {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+  }
 }

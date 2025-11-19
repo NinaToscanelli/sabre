@@ -74,14 +74,40 @@ tl.fromTo(
   "tigres+=2"
 );
 
-tl.to(".screens-stroll", {
-  x: "-60%",
-  duration: 4,
-});
+tl.to(
+  ".screens-stroll",
+  {
+    x: "-60%",
+    duration: 4,
+  },
+  "buffalo"
+);
+
+tl.fromTo(
+  ".buffalo",
+  { scale: 1 },
+  {
+    scale: 0.6,
+    duration: 3,
+  },
+  "buffalo"
+);
+
+tl.fromTo(
+  ".buffalo",
+  { scale: 0.6 },
+  {
+    scale: 1,
+    duration: 2,
+  },
+  "buffalo+=3"
+);
+
 tl.to(".screens-stroll", {
   x: "-80%",
   duration: 4,
 });
+
 tl.to(
   ".screens-stroll",
   {
@@ -103,44 +129,3 @@ tl.fromTo(
 );
 
 tl.fromTo(".winter", { opacity: 0 }, { opacity: 1, duration: 3 });
-/*
-tl.to(
-  ".screens-stroll",
-  {
-    scale: 0.85,
-    duration: 1,
-  },
-  "-=1"
-);
-
-tl.to(".screens-stroll", {
-  scale: 1,
-  duration: 3,
-});
-*/
-
-/*
-tl.to(".screens-stroll", {
-  x: "-25%",
-  duration: 4,
-});
-*/
-
-/*
- */
-
-/*
-tl.to(".screens-stroll", {
-  x: "-80%",
-  duration: 4,
-});
-
-tl.to(
-  ".buffalo",
-  {
-    scale: 0.8,
-    duration: 3,
-  },
-  "-=4"
-);
-*/
