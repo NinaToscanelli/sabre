@@ -4,7 +4,7 @@ import { Timeline } from "gsap/gsap-core";
 
 gsap.registerPlugin(ScrollTrigger);
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   var tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".scroller-stroll",
@@ -117,7 +117,7 @@ window.addEventListener("DOMContentLoaded", () => {
     x: "-80%",
     duration: 4,
   });
-  //problème avec scrollHeight sur safari
+
   tl.to(
     ".screens-stroll",
     {
