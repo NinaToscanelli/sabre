@@ -120,7 +120,7 @@ tl.to(".screens-stroll", {
 tl.to(
   ".screens-stroll",
   {
-    y: "-140%",
+    y: "-136%",
     duration: 8,
   },
   "corpse-down"
@@ -138,3 +138,6 @@ tl.fromTo(
 );
 
 tl.fromTo(".winter", { opacity: 0 }, { opacity: 1, duration: 3 });
+tl.addLabel("winter-scroll");
+tl.to(".image-cave", { scale: 3.5, duration: 3 }, "winter-scroll");
+tl.to(".image-winter", { scale: 1.3, duration: 1 }, "winter-scroll");

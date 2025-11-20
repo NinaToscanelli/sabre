@@ -5,8 +5,9 @@
 }
 
 .tigers .sky {
+  overflow: hidden;
   position: relative;
-  width: 80vh;
+  width: 100%;
   height: 100vh;
   background-image: url(/src/img/ciel.png);
 }
