@@ -18,10 +18,18 @@
   opacity: 0;
   z-index: 1;
 }
+.corpse .autumn img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-height: 100vh;
+  bottom: 0;
+  left: 0;
+}
 .corpse .winter {
   position: absolute;
   width: 100%;
-  height: 100vh;
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -30,12 +38,17 @@
 
 .corpse .winter img {
   position: absolute;
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-height: 100vh;
   bottom: 0;
   left: 0;
-}
 
-.corpse .image-cave {
-  height: auto;
+  &.image-cave {
+    z-index: 2;
+  }
+  &.image-winter {
+    z-index: 1;
+  }
 }

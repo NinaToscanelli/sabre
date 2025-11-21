@@ -47,19 +47,22 @@ footer p {
   line-height: 125%;
 }
 
-footer button.call-to-action {
+footer .call-to-action {
   width: 210px;
   height: 45px;
   color: #000;
   font-family: "Nova Flat";
   font-size: 32px;
   font-weight: 400;
-  line-height: 125%;
+  line-height: 90px;
   width: 348px;
   height: 101px;
   border-radius: 44px;
   border: 6px solid #e8da61;
   background: #fff;
+  text-align: center;
+  display: block;
+  text-decoration: none;
 }
 
 footer .produit {
